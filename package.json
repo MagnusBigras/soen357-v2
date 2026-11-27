@@ -1,0 +1,14 @@
+{
+  "name": "meal-planning-assistant",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SOEN 357 Phase 3 (The Vth Division): Meal Planning Assistant website, Version 2, V1 revised after usability round 1.",
+  "scripts": {
+    "start": "python3 -m http.server 8357",
+    "test": "node --test tests/logic.test.js",
+    "verify": "node tests/e2e-verify.js http://localhost:8357/"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
